@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-18T22:31:58Z" name="LocalExecution" finished-at="2021-03-18T22:32:20Z" duration-ms="21692">
+    <groups>
+      <group name="create_post">
+        <method signature="PostTests.Test_Delete_Post_NotValidAuth()[pri:15, instance:PostTests@76a4d6c]" name="Test_Delete_Post_NotValidAuth" class="PostTests"/>
+        <method signature="PostTests.Test_Delete_Post_Success()[pri:5, instance:PostTests@76a4d6c]" name="Test_Delete_Post_Success" class="PostTests"/>
+        <method signature="PostTests.Test_Delete_Post_doesnt_Exist_Fail()[pri:10, instance:PostTests@76a4d6c]" name="Test_Delete_Post_doesnt_Exist_Fail" class="PostTests"/>
+        <method signature="PostTests.Test_Get_One_Post_NotValidAuth()[pri:13, instance:PostTests@76a4d6c]" name="Test_Get_One_Post_NotValidAuth" class="PostTests"/>
+        <method signature="PostTests.Test_Get_One_Post_Success()[pri:3, instance:PostTests@76a4d6c]" name="Test_Get_One_Post_Success" class="PostTests"/>
+        <method signature="PostTests.Test_Get_One_Post_doesnt_exist()[pri:8, instance:PostTests@76a4d6c]" name="Test_Get_One_Post_doesnt_exist" class="PostTests"/>
+        <method signature="PostTests.Test_Update_Post_NotValidAuth()[pri:14, instance:PostTests@76a4d6c]" name="Test_Update_Post_NotValidAuth" class="PostTests"/>
+        <method signature="PostTests.Test_Update_Post_Success()[pri:4, instance:PostTests@76a4d6c]" name="Test_Update_Post_Success" class="PostTests"/>
+        <method signature="PostTests.Test_Update_Post_doesnt_exist_Fail()[pri:9, instance:PostTests@76a4d6c]" name="Test_Update_Post_doesnt_exist_Fail" class="PostTests"/>
+        <method signature="CommentsTest.Test_Create_Comment()[pri:1, instance:CommentsTest@6166e06f]" name="Test_Create_Comment" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Create_Comment_MandatoryField_Fail()[pri:6, instance:CommentsTest@6166e06f]" name="Test_Create_Comment_MandatoryField_Fail" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Create_Comment_NotValidAuth()[pri:11, instance:CommentsTest@6166e06f]" name="Test_Create_Comment_NotValidAuth" class="CommentsTest"/>
+      </group> <!-- create_post -->
+      <group name="create_comment">
+        <method signature="CommentsTest.Test_Delete_One_Comment()[pri:5, instance:CommentsTest@6166e06f]" name="Test_Delete_One_Comment" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Delete_One_Comment_Error()[pri:10, instance:CommentsTest@6166e06f]" name="Test_Delete_One_Comment_Error" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Delete_One_Comment_NotValidAuth()[pri:15, instance:CommentsTest@6166e06f]" name="Test_Delete_One_Comment_NotValidAuth" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Get_All_Comments()[pri:2, instance:CommentsTest@6166e06f]" name="Test_Get_All_Comments" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Get_One_Comment()[pri:3, instance:CommentsTest@6166e06f]" name="Test_Get_One_Comment" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Get_One_Comment_Doesnt_Exist()[pri:8, instance:CommentsTest@6166e06f]" name="Test_Get_One_Comment_Doesnt_Exist" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Get_One_Comment_NotValidAuth()[pri:13, instance:CommentsTest@6166e06f]" name="Test_Get_One_Comment_NotValidAuth" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Update_One_Comment()[pri:4, instance:CommentsTest@6166e06f]" name="Test_Update_One_Comment" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Update_One_Comment_Doesnt_Exist()[pri:9, instance:CommentsTest@6166e06f]" name="Test_Update_One_Comment_Doesnt_Exist" class="CommentsTest"/>
+        <method signature="CommentsTest.Test_Update_One_Comment_NotValidAuth()[pri:14, instance:CommentsTest@6166e06f]" name="Test_Update_One_Comment_NotValidAuth" class="CommentsTest"/>
+      </group> <!-- create_comment -->
+    </groups>
+    <test started-at="2021-03-18T22:31:58Z" name="CommentsTest" finished-at="2021-03-18T22:32:17Z" duration-ms="18554">
+      <class name="CommentsTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:31:58Z" name="setup" finished-at="2021-03-18T22:32:00Z" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="Test_Create_Post()[pri:0, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:00Z" name="Test_Create_Post" finished-at="2021-03-18T22:32:05Z" duration-ms="4909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Post -->
+        <test-method signature="Test_Create_Comment()[pri:1, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:05Z" name="Test_Create_Comment" finished-at="2021-03-18T22:32:05Z" duration-ms="767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Comment -->
+        <test-method is-config="true" signature="Test_Create_Comment_default()[pri:0, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:05Z" name="Test_Create_Comment_default" finished-at="2021-03-18T22:32:07Z" duration-ms="2022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Comment_default -->
+        <test-method signature="Test_Get_All_Comments()[pri:2, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:07Z" name="Test_Get_All_Comments" finished-at="2021-03-18T22:32:08Z" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Comments -->
+        <test-method signature="Test_Get_One_Comment()[pri:3, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:08Z" name="Test_Get_One_Comment" finished-at="2021-03-18T22:32:09Z" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Comment -->
+        <test-method signature="Test_Update_One_Comment()[pri:4, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:09Z" name="Test_Update_One_Comment" finished-at="2021-03-18T22:32:10Z" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_One_Comment -->
+        <test-method signature="Test_Delete_One_Comment()[pri:5, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:10Z" name="Test_Delete_One_Comment" finished-at="2021-03-18T22:32:10Z" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_One_Comment -->
+        <test-method signature="Test_Create_Comment_MandatoryField_Fail()[pri:6, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:10Z" name="Test_Create_Comment_MandatoryField_Fail" finished-at="2021-03-18T22:32:11Z" duration-ms="647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Comment_MandatoryField_Fail -->
+        <test-method signature="Test_Get_All_Comments_Error()[pri:7, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:11Z" name="Test_Get_All_Comments_Error" finished-at="2021-03-18T22:32:12Z" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Comments_Error -->
+        <test-method signature="Test_Get_One_Comment_Doesnt_Exist()[pri:8, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:12Z" name="Test_Get_One_Comment_Doesnt_Exist" finished-at="2021-03-18T22:32:12Z" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Comment_Doesnt_Exist -->
+        <test-method signature="Test_Update_One_Comment_Doesnt_Exist()[pri:9, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:12Z" name="Test_Update_One_Comment_Doesnt_Exist" finished-at="2021-03-18T22:32:13Z" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_One_Comment_Doesnt_Exist -->
+        <test-method signature="Test_Delete_One_Comment_Error()[pri:10, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:13Z" name="Test_Delete_One_Comment_Error" finished-at="2021-03-18T22:32:14Z" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_One_Comment_Error -->
+        <test-method signature="Test_Create_Comment_NotValidAuth()[pri:11, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:14Z" name="Test_Create_Comment_NotValidAuth" finished-at="2021-03-18T22:32:14Z" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Comment_NotValidAuth -->
+        <test-method signature="Test_Get_All_Comments_NotValidAuth()[pri:12, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:14Z" name="Test_Get_All_Comments_NotValidAuth" finished-at="2021-03-18T22:32:15Z" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Comments_NotValidAuth -->
+        <test-method signature="Test_Get_One_Comment_NotValidAuth()[pri:13, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:15Z" name="Test_Get_One_Comment_NotValidAuth" finished-at="2021-03-18T22:32:16Z" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Comment_NotValidAuth -->
+        <test-method signature="Test_Update_One_Comment_NotValidAuth()[pri:14, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:16Z" name="Test_Update_One_Comment_NotValidAuth" finished-at="2021-03-18T22:32:16Z" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_One_Comment_NotValidAuth -->
+        <test-method signature="Test_Delete_One_Comment_NotValidAuth()[pri:15, instance:CommentsTest@6166e06f]" started-at="2021-03-18T22:32:16Z" name="Test_Delete_One_Comment_NotValidAuth" finished-at="2021-03-18T22:32:17Z" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_One_Comment_NotValidAuth -->
+      </class> <!-- CommentsTest -->
+    </test> <!-- CommentsTest -->
+    <test started-at="2021-03-18T22:31:58Z" name="PostTests" finished-at="2021-03-18T22:32:20Z" duration-ms="21692">
+      <class name="PostTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:31:58Z" name="setup" finished-at="2021-03-18T22:32:00Z" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_Create_Post_Success()[pri:1, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:00Z" name="Test_Create_Post_Success" finished-at="2021-03-18T22:32:05Z" duration-ms="5055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Post_Success -->
+        <test-method signature="Test_Get_All_Post_Success()[pri:2, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:05Z" name="Test_Get_All_Post_Success" finished-at="2021-03-18T22:32:06Z" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Post_Success -->
+        <test-method is-config="true" signature="Test_Create_Post()[pri:0, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:06Z" name="Test_Create_Post" finished-at="2021-03-18T22:32:08Z" duration-ms="1285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Post -->
+        <test-method signature="Test_Get_One_Post_Success()[pri:3, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:08Z" name="Test_Get_One_Post_Success" finished-at="2021-03-18T22:32:09Z" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Post_Success -->
+        <test-method signature="Test_Update_Post_Success()[pri:4, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:09Z" name="Test_Update_Post_Success" finished-at="2021-03-18T22:32:10Z" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_Post_Success -->
+        <test-method signature="Test_Delete_Post_Success()[pri:5, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:10Z" name="Test_Delete_Post_Success" finished-at="2021-03-18T22:32:11Z" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_Post_Success -->
+        <test-method signature="Test_Create_Post_MandatoryField_Fail()[pri:6, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:11Z" name="Test_Create_Post_MandatoryField_Fail" finished-at="2021-03-18T22:32:13Z" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Post_MandatoryField_Fail -->
+        <test-method signature="Test_Get_All_Post_Fail()[pri:7, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:13Z" name="Test_Get_All_Post_Fail" finished-at="2021-03-18T22:32:13Z" duration-ms="563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Post_Fail -->
+        <test-method signature="Test_Get_One_Post_doesnt_exist()[pri:8, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:13Z" name="Test_Get_One_Post_doesnt_exist" finished-at="2021-03-18T22:32:15Z" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Post_doesnt_exist -->
+        <test-method signature="Test_Update_Post_doesnt_exist_Fail()[pri:9, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:15Z" name="Test_Update_Post_doesnt_exist_Fail" finished-at="2021-03-18T22:32:16Z" duration-ms="1338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_Post_doesnt_exist_Fail -->
+        <test-method signature="Test_Delete_Post_doesnt_Exist_Fail()[pri:10, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:16Z" name="Test_Delete_Post_doesnt_Exist_Fail" finished-at="2021-03-18T22:32:17Z" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_Post_doesnt_Exist_Fail -->
+        <test-method signature="Test_Create_Post_NotValidAuth()[pri:11, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:17Z" name="Test_Create_Post_NotValidAuth" finished-at="2021-03-18T22:32:18Z" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Create_Post_NotValidAuth -->
+        <test-method signature="Test_Get_All_Post_NotValidAuth()[pri:12, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:18Z" name="Test_Get_All_Post_NotValidAuth" finished-at="2021-03-18T22:32:18Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_All_Post_NotValidAuth -->
+        <test-method signature="Test_Get_One_Post_NotValidAuth()[pri:13, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:18Z" name="Test_Get_One_Post_NotValidAuth" finished-at="2021-03-18T22:32:19Z" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Get_One_Post_NotValidAuth -->
+        <test-method signature="Test_Update_Post_NotValidAuth()[pri:14, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:19Z" name="Test_Update_Post_NotValidAuth" finished-at="2021-03-18T22:32:20Z" duration-ms="572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Update_Post_NotValidAuth -->
+        <test-method signature="Test_Delete_Post_NotValidAuth()[pri:15, instance:PostTests@76a4d6c]" started-at="2021-03-18T22:32:20Z" name="Test_Delete_Post_NotValidAuth" finished-at="2021-03-18T22:32:20Z" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Delete_Post_NotValidAuth -->
+      </class> <!-- PostTests -->
+    </test> <!-- PostTests -->
+  </suite> <!-- LocalExecution -->
+</testng-results>
